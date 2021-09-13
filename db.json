@@ -1,0 +1,194 @@
+{
+    "status": "SUCCESS",
+    "message": "Operation Successful",
+    "data": {
+        "currency" : "₹",
+        "bankScore": {
+            "name": "Srinivasan",
+            "mobile": "8618645876",
+            "email": "srinivasan@finbit.io",
+            "bankName": "SBI",
+            "accountNumber": "764596923473",
+            "score": 780,
+            "bankScoreStatus": "VERY GOOD",
+            "currentBalance": 50000,
+            "startDate": "1 Jan 2021",
+            "endDate": "9 May 2021"
+        },
+        "scoreAnalysis": {
+            "scoreAnalysisList": [
+                {
+                    "category": "Average Monthly Balance",
+                    "status": "Excellent"
+                },
+                {
+                    "category": "Fixed Obligations",
+                    "status": "Good"
+                },
+                {
+                    "category": "Income Expense Ratio",
+                    "status": "Average"
+                },
+                {
+                    "category": "Investments",
+                    "status": "Poor"
+                }
+            ]
+        },
+        "incomeExpenses": {
+            "incomeList": [
+                {
+                    "monthYear": "Sep 2021",
+                    "value": 20576.6
+                },
+                {
+                    "monthYear": "Oct 2020",
+                    "value": 20576.6
+                }
+            ],
+            "expensesList": [
+                {
+                    "monthYear": "Sep 2020",
+                    "value": 7000
+                },
+                {
+                    "monthYear": "Oct 2020",
+                    "value": 5576.6
+                }
+            ],
+            "averageMonthlyBalance": 14000,
+            "averageMonthlyIncomePercent": 51
+        },
+        "monthlyIncomeAnalysis": {
+            "income": 550520,
+            "investments": 1303990,
+            "expenses": 300000,
+            "obligations": 100000,
+            "averageMonthlyIncome": 110000
+        },
+        "spendingCategories": {
+            "spendingCategoryList": [
+                {
+                    "category": "Food & Groceries",
+                    "total": "110000",
+                    "percent": 35
+                },
+                {
+                    "category": "Shopping",
+                    "total": "73000",
+                    "percent": 23
+                },
+                {
+                    "category": "Utilities",
+                    "total": "56000",
+                    "percent": 18
+                },
+                {
+                    "category": "Entertainment",
+                    "total": "45000",
+                    "percent": 14
+                },
+                {
+                    "category": "Others",
+                    "total": "29000",
+                    "percent": 9
+                }
+            ],
+            "percentOfTotalIncome": 25
+        },
+        "merchantSpending": {
+            "merchantsSpendingList": [
+                {
+                    "category": "Flipkart",
+                    "total": "26000"
+                },
+                {
+                    "category": "Myntra",
+                    "total": "20000"
+                },
+                {
+                    "category": "Zomato",
+                    "total": "17000"
+                },
+                {
+                    "category": "Amazon",
+                    "total": "14000"
+                },
+                {
+                    "category": "Swiggy",
+                    "total": "1000"
+                }
+            ],
+            "percentageTotalIncome": 5
+        },
+        "investments": {
+            "investmentList": [
+                {
+                    "category": "Mutual Funds",
+                    "total": 80000,
+                    "percent": 62
+                },
+                {
+                    "category": "Fixed Deposits",
+                    "total": 30000,
+                    "percent": 23
+                },
+                {
+                    "category": "Equity Stocks",
+                    "total": 15000,
+                    "percent": 11
+                },
+                {
+                    "category": "Others",
+                    "total": 5000,
+                    "percent": 4
+                }
+            ],
+            "percentOfTotalIncome": 15
+        },
+        "creditCardUtilization": {
+            "monthlyCreditCardUtilization": [
+                {
+                    "monthYear": "Sep 2020",
+                    "value": 20000
+                },
+                {
+                    "monthYear": "Oct 2020",
+                    "value": 25744
+                },
+                {
+                    "monthYear": "Nov 2020",
+                    "value": 25000
+                },
+                {
+                    "monthYear": "Dec 2020",
+                    "value": 23000
+                }
+            ],
+            "percentAverageMonthlyIncome": 37,
+            "highestCreditCardUtilization": 25744
+        },
+        "monthlyObligations": {
+            "monthlyObligationList": [
+                {
+                    "monthYear": "Sep 2020",
+                    "value": 2000
+                },
+                {
+                    "monthYear": "Oct 2020",
+                    "value": 25744
+                },
+                {
+                    "monthYear": "Nov 2020",
+                    "value": 25000
+                },
+                {
+                    "monthYear": "Dec 2020",
+                    "value": 23000
+                }
+            ],
+            "averageMonthlyObligation": 20000,
+            "percentageAverageMonthlyIncome": 19
+        }
+    }
+}
